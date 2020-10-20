@@ -1,0 +1,28 @@
+body {
+    background-image: url(../img/kostka-background-img.png);
+    background-repeat: no-repeat;
+
+}
+
+#tlacitko {
+    color: white;
+    border: black;
+    display: block;
+    height: auto;
+    margin: auto;  
+}
+#kostka {
+    display: block;
+    width: 12%;
+    height: auto;
+    margin: auto;  
+}
+
+#statistika {
+    text-align: center;
+    color: white;
+}
+
+.jumbotron {
+    background: none
+}
