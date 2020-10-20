@@ -50,7 +50,7 @@ function min () {
 }
 
 function vypisStatistiky() {
-    statistika.innerHTML = `<p>Poslední hod: ${hod}</p>`;
+    statistika.innerHTML = `<p>Poslední hod:</tr> <td>${hod}</p>`;
     statistika.innerHTML += `<p>Počet hodů: ${hody.length}</p>`;
     statistika.innerHTML += `<p>Součet: ${suma()}</p>`;
     statistika.innerHTML += `<p>Průměr: ${(suma() / hody.length).toFixed(2)}</p>`;
